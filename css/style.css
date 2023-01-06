@@ -1,6 +1,39 @@
 /* mobile first */
 body {
   font-size: 14px;
+  background-color: #F3F5FC;
+}
+
+header, section {
+  width: 100%;
+  margin: 24px 0 80px 16px;
+}
+
+section textarea {
+  width: 80%;
+  height: 100px;
+  background-color:  #F3F5FC;
+  padding: 10px;
+  color: #0A3871;
+  border: none;
+}
+
+section textarea::placeholder {
+  color: #0A3871;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px
+}
+
+section p {
+  color: #67808E;
+}
+
+section p span {
+  color: white;
+  background-color: #67808E;
+  padding: 3px;
+  border-radius: 50%;
 }
 
 /* tabletas */
