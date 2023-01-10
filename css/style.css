@@ -69,6 +69,10 @@ section p img {
   border-radius: 32px;
 }
 
+.mensaje img {
+  display: none;
+}
+
 .mensaje h2 {
   font-size: 20px;
   font-weight: 700;
@@ -88,13 +92,58 @@ section p img {
   body {
     font-size: 15px;
   }
+
+  header,section {
+    margin: 24px 40px 80px 40px;
+  }
+
+
+  .encriptar {
+    display: inline;
+    width: 45%;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .desencriptar {
+    display: inline;
+    width: 45%;
+    margin-bottom: 0;
+  }
+
+  .mensaje img{
+    display: none;
+  }
 }
 
 /* escritorio normales */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   body {
     font-size: 16px;
   }
+
+  .primeraParte {
+      width: 60%;
+    }
+
+  section textarea {
+    height: 210px;
+  }
+
+  .mensaje {
+    position: absolute;
+    top: 40px;
+    width: 30%;
+    right: 5px;
+    height: 500px;
+  }
+
+    .mensaje img {
+      display: block;
+      width: 80%;
+      height: 304px;
+      margin: 5px auto;
+    }
 }
 
 /* pantallas grandes */
@@ -102,4 +151,18 @@ section p img {
   body {
     font-size: 17px;
   }
+
+    section textarea {
+      height: 383px;
+    }
+
+    .mensaje {
+      right: 30px;
+      height: 680px;
+    }
+
+    .mensaje img {
+      margin: 80px auto;
+    }
+
 }
