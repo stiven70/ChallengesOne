@@ -66,7 +66,7 @@ section p img {
 
 .mensaje {
   width: 100%;
-  height: auto;
+  height: 130px;
   text-align: center;
   background: #FFFFFF;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -119,8 +119,13 @@ button.copiar {
   color: #343A40;
 }
 
+#containerImagen {
+  margin: 0 45px;
+}
 
-
+#containerImagen h2{
+  margin-bottom: 15px;
+}
 
 
 /* tabletas */
