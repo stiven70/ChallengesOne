@@ -165,6 +165,7 @@ button.copiar {
 
   section textarea {
     height: 335px;
+    font-size: 18px;
   }
 
   .mensaje {
@@ -208,6 +209,7 @@ button.copiar {
     .mensaje {
       right: 30px;
       height: 580px;
+      top: 30px;
     }
 
     .mensaje img {
@@ -217,5 +219,26 @@ button.copiar {
     .mensaje h2 {
       padding: 0;
     }
+
+}
+
+
+/* pantallas muy grandes */
+@media (min-width: 1600px) {
+  section textarea {
+      height: 400px;
+  }
+
+  .mensaje {
+    height: 700px;
+  }
+
+  #containerImagen {
+    margin: 0 30px;
+  }
+
+  #mensajeEncriptado textarea {
+    height: 510px;
+  }
 
 }
