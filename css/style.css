@@ -102,9 +102,10 @@ button.copiar {
   transition: 0.6s;
 }
 
-#mensajeEncriptado p {
+#mensajeEncriptado #mensaje {
   display: none;
   color: #0A3871;
+  margin-bottom: 5px;
 }
 
 .mensaje img {
@@ -118,10 +119,7 @@ button.copiar {
   color: #343A40;
 }
 
-.mensaje p {
-  font-size: 16px;
-  padding: 32px 0;
-}
+
 
 
 
@@ -153,9 +151,6 @@ button.copiar {
     display: none;
   }
 
-  .mensaje p {
-    padding: 32px 10px;
-  }
 }
 
 /* escritorio normales */
@@ -169,22 +164,34 @@ button.copiar {
     }
 
   section textarea {
-    height: 210px;
+    height: 335px;
   }
 
   .mensaje {
     position: absolute;
-    top: 40px;
+    top: 80px;
     width: 30%;
     right: 20px;
-    height: 500px;
+    height: 570px;
   }
 
     .mensaje img {
       display: block;
       width: 80%;
       height: auto;
-      margin: 5px auto;
+      margin: 50px auto;
+    }
+
+    #mensajeEncriptado textarea {
+      height: 400px;
+    }
+
+    #containerImagen {
+      margin: 0 17px;
+    }
+
+    .mensaje h2 {
+      margin-bottom: 40px;
     }
 }
 
