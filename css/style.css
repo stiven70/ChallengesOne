@@ -84,12 +84,6 @@ section p img {
   margin-top: 32px;
 }
 
-.boton {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
 button.copiar {
   width: 80%;
   height: 67px;
