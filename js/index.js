@@ -1,22 +1,26 @@
-//Fun
 function encriptar () {
   let contenedor1 = document.getElementById("mensajeEncriptado");
   let contenedor2 = document.getElementById("containerImagen");
-  let mensaje = document.getElementById("mensaje");
+  const mensaje = document.getElementById("mensaje");
   contenedor1.style.display = "block";
   contenedor2.style.display = "none";
   mensaje.style.display = "none";
-  let texto = document.getElementById("texto").value;
-  let textoCifrado = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
+  const texto = document.getElementById("texto").value;
+  const textoCifrado = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
   document.getElementById("textoCifrado").innerHTML = textoCifrado;
 }
 
-function desencriptar () {
-  let mensaje = document.getElementById("mensaje");
+function desencriptar() {
+  let contenedor1 = document.getElementById("mensajeEncriptado");
+  let contenedor2 = document.getElementById("containerImagen");
+  const mensaje = document.getElementById("mensaje");
+  contenedor1.style.display = "block";
+  contenedor2.style.display = "none";
   mensaje.style.display = "none";
-  let texto = document.getElementById("textoCifrado").value;
-  let textoCifrado = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
+  const texto = document.getElementById("texto").value;
+  const textoCifrado = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
   document.getElementById("textoCifrado").innerHTML = textoCifrado;
+  console.log("Si entra");
 }
 
 function copiar () {
