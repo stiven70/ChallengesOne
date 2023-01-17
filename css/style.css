@@ -199,6 +199,20 @@ button.copiar {
     .mensaje h2 {
       margin-bottom: 40px;
     }
+
+    .encriptar:hover {
+      background: white;
+      color: #0A3871;
+      cursor: pointer;
+      transition: 0.6s;
+    }
+
+    .desencriptar:hover {
+      background: #0A3871;
+      color: white;
+      cursor: pointer;
+      transition: 0.6s;
+    }
 }
 
 /* pantallas grandes */
